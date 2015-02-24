@@ -1,0 +1,22 @@
+Ipython Section Answer:
+1.The command is 
+In[1]:import os
+In[2]:??os.path.abspath
+and the path is "/usr/lib/python2.7/posixpath.py".
+2.The command is 
+num = len([item for item in os.listdir('/etc') if os.path.isfile(os.path.join('/etc',item))])
+3.The command is 
+import math
+print math.sqrt(num)
+and the value is 10.0995049384
+4.
+a)%timeit x**2
+10000000 loops, best of 3: 53.2 ns per loop
+b)%timeit x*x
+10000000 loops, best of 3: 39 ns per loop
+c)%timeit numpy.square(x)
+1000000 loops, best of 3: 1.1 µs per loop
+The fastest method is x*x.
+5.There are 24 cell magic commands in total.
+PyDev Section:
+5.The Console view is Hello World!
